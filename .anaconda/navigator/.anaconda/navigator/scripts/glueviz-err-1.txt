@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\Scripts\glue-script.py", line 10, in <module>
+    sys.exit(main())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\main.py", line 261, in main
+    start_glue(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\main.py", line 152, in start_glue
+    splash = get_splash()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\main.py", line 217, in get_splash
+    from glue.app.qt.splash_screen import QtSplashScreen
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\app\qt\__init__.py", line 3, in <module>
+    from .application import GlueApplication  # noqa
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\app\qt\application.py", line 33, in <module>
+    from glue.viewers.image.qt import ImageViewer
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\viewers\image\qt\__init__.py", line 1, in <module>
+    from .data_viewer import ImageViewer  # noqa
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\viewers\image\qt\data_viewer.py", line 8, in <module>
+    from glue.viewers.image.layer_artist import ImageLayerArtist, ImageSubsetLayerArtist
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\viewers\image\layer_artist.py", line 20, in <module>
+    from glue.viewers.image.frb_artist import imshow
+  File "C:\ProgramData\Anaconda3\lib\site-packages\glue\viewers\image\frb_artist.py", line 7, in <module>
+    from mpl_scatter_density.base_image_artist import BaseImageArtist
+ModuleNotFoundError: No module named 'mpl_scatter_density.base_image_artist'

@@ -1,0 +1,10 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "93098f32-611f-418e-9786-44247a0395c6"
+  core:
+    telemetryConsent: "limited"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "ade10c41-254c-421b-96c5-4610da81972c"
